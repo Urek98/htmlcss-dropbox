@@ -25,6 +25,10 @@
   color: white;
 }
 
+ul{
+  list-style: none;
+}
+
 /* barra navigazione */
 
 .nav-bar{
@@ -98,23 +102,52 @@
   width: 1000px ;
   border: 1px solid black;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 180px;
 }
+
+#title-2{
+  font-size: 40px;
+  text-align: center;
+}
+
+.input{
+  margin-top: 25px;
+}
+
+/*prime 3 colonne */
 
 div[class^="colonna-30"] {
   width: 30%;
   background-color: chartreuse;
-  border: 1px solid black;
   height: 500px;
+  margin-top: 30px;
 }
 
-.colonna-30l{
+.titolo-colonna{
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+.colonna-30-left{
   margin-right: 5%;
 }
 
-.colonna-30r{
+.colonna-30-right{
   margin-left: 3%;
 }
+
+div[class^="part-colonna"]{
+  padding: 25px 15px;
+
+}
+
+
+
+
 
 
 #element-50{
