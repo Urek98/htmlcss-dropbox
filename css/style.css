@@ -9,3 +9,14 @@
   display: table;
   clear: both;
 }
+
+
+.nav-bar{
+  height: 80px;
+  border: 1px solid black;
+}
+
+.container {
+  width: 1200px ;
+  border: 1px solid black;
+}
