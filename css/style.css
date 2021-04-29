@@ -10,13 +10,60 @@
   clear: both;
 }
 
-
-.nav-bar{
-  height: 80px;
-  border: 1px solid black;
+.fl{
+  float: left;
 }
 
-.container {
+.fr{
+  float: right;
+}
+
+.jumbo{
+  background-color: rgb(180,208,231);
+  height: 500px;
+}
+
+.content-jumbo {
   width: 1200px ;
   border: 1px solid black;
+  margin: 0 auto;
+}
+
+.nav-bar{
+  height: 60px;
+  background-color: aqua;
+}
+
+.element-30{
+  width: 30%;
+  background-color: blueviolet;
+  height: 300px;
+}
+
+.element-70{
+  width: 70%;
+  background-color: crimson;
+  height: 300px;
+
+}
+
+
+.main-container{
+  width: 1000px ;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+div[class^="colonna-30"] {
+  width: 30%;
+  background-color: chartreuse;
+  height: 500px;
+}
+
+.colonna-30l{
+  margin-right: 5%;
+}
+
+.colonna-30r{
+  margin-left: 3%;
 }
