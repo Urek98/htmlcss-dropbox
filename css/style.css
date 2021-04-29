@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .clearfix::after{
@@ -18,35 +19,80 @@
   float: right;
 }
 
-.jumbo{
-  background-color: rgb(180,208,231);
-  height: 500px;
+.button{
+  background-color: rgb(0,97,255);
+  padding: 0 15px 0 15px;
+  color: white;
 }
 
-.content-jumbo {
-  width: 1200px ;
-  border: 1px solid black;
-  margin: 0 auto;
-}
+/* barra navigazione */
 
 .nav-bar{
   height: 60px;
-  background-color: aqua;
+  padding: 20px 25px 20px 25px;
+}
+
+.nav-item-left{
+  margin-right: 30px;
+}
+
+.nav-item-right{
+  margin-left: 30px;
+}
+
+
+/* jumbo */
+
+.jumbo{
+  background-color: rgb(180,208,231);
+  height: 600px;
+}
+
+.content-jumbo {
+  width: 1100px ;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.title-jumbo{
+  font-size: 60px;
 }
 
 .element-30{
   width: 30%;
   background-color: blueviolet;
-  height: 300px;
+  margin-top: 30px ;
 }
 
 .element-70{
   width: 70%;
   background-color: crimson;
-  height: 300px;
+  margin-top: 30px ;
 
 }
 
+#iscrizione{
+  width: 230px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 30px;
+}
+
+#annulla{
+  margin-top: 15px;
+  font-size: smaller;
+}
+
+#downarrow{
+  font-size: 70px;
+}
+
+#jumbo{
+  width: 800px;
+  height: 470px;
+}
+
+/* sezione principale */
 
 .main-container{
   width: 1000px ;
