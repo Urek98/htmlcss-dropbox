@@ -29,6 +29,10 @@ ul{
   list-style: none;
 }
 
+li{
+  margin-top: 10px;
+}
+
 /* barra navigazione */
 
 .nav-bar{
@@ -119,14 +123,15 @@ ul{
 div[class^="colonna-30"] {
   width: 30%;
   background-color: chartreuse;
-  height: 500px;
+  height: 900px;
   margin-top: 30px;
+  border: 1px solid black;
 }
 
 .titolo-colonna{
   width: 100%;
   height: 40px;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   text-align: center;
   line-height: 40px;
 
@@ -140,10 +145,46 @@ div[class^="colonna-30"] {
   margin-left: 3%;
 }
 
-div[class^="part-colonna"]{
-  padding: 25px 15px;
-
+.type-plan{
+  font-size: 30px;
+  font-weight: bold;
 }
+
+.price-plan{
+  font-weight: bold;
+}
+
+.grey-plan{
+  color: lightgray;
+}
+
+div[class^="part-colonna"]{
+  padding: 25px 30px 25px 30px;
+}
+
+.part-colonna-first{
+  height: 170px;
+}
+
+.punti-salienti{
+  font-size: larger;
+  font-weight: bold;
+}
+
+#prova-gratis{
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 40px;
+}
+
+.check{
+  color:rgb(0,97,255) ;
+}
+
+
+
 
 
 
