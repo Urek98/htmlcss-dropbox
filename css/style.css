@@ -244,6 +244,26 @@ div[class^="part-colonna"]{
   margin-top: 30px;
 }
 
+/* 6 colonne */
+
+div[class^="colonna-32"]{
+  width: 32%;
+  height: 580px;
+  margin-top: 50px;
+  padding-left: 8px;
+}
+
+.colonna-32l{
+  margin-right: 18px;
+}
+
+.img-6-colonne{
+  width: 100%;
+}
+
+#margin-80{
+  margin-top: 80px;
+}
 
 
 
