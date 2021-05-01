@@ -68,13 +68,11 @@ li{
 
 .element-30{
   width: 30%;
-  background-color: blueviolet;
   margin-top: 30px ;
 }
 
 .element-70{
   width: 70%;
-  background-color: crimson;
   margin-top: 30px ;
 
 }
@@ -108,7 +106,6 @@ li{
 
 .main-container{
   width: 1000px ;
-  border: 1px solid black;
   margin: 0 auto;
 }
 
@@ -125,7 +122,6 @@ li{
 
 div[class^="colonna-30"] {
   width: 30%;
-  background-color: chartreuse;
   height: 950px;
   margin-top: 30px;
   border: 1px solid grey;
@@ -351,3 +347,86 @@ div[class^="colonna-32"]{
   background-color: gold;
 }
 
+/* sezione dopo i loghi */
+
+.final-box{
+  background-color: rgb(180,208,231);
+  height: 250px;
+}
+
+#inizia-prova-final{
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  background-color: white;
+  color: black;
+  margin-top: 30px; 
+}
+
+#title-box-4{
+  font-size: 40px;
+  width: 60%;
+  color: rgb(107,32,66);
+}
+
+#container-final-box{
+  padding-top: 70px;
+}
+
+/* sezione domande frequenti */
+
+#sezione-domande{
+  height: 600px;
+  padding-top: 90px;
+}
+
+.domande-frequenti{
+  line-height: 80px;
+  width: 75%;
+}
+
+.domande-frequenti-r{
+  line-height: 80px;
+  padding-right: 80px;
+  
+}
+
+#titolo-sezione-domande{
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 50px;
+}
+
+.riga-domande{
+  border-bottom: 1px solid lightgray;
+  height: 80px;
+}
+
+/* footer */
+
+footer{
+  height: 500px;
+  background-color: black;
+}
+
+.colonna-footer{
+  width: 20%;
+  padding-top: 80px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.title-footer{
+  color: white;
+  font-weight: bold;
+}
+
+.item-footer{
+  color: white;
+  font-size: smaller;
+}
+
+.line{
+  border-top: 1px solid lightgray;
+  width: 110px;
+  height: 50px;
+}
