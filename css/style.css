@@ -265,18 +265,89 @@ div[class^="colonna-32"]{
   margin-top: 80px;
 }
 
+/* box team e clienti */
 
+#title-box-3{
+  font-size: 40px;
+  width: 60%;
+}
+
+#margin-40{
+  margin-top: 40px;
+}
+
+#link-clienti{
+  height: 80px;
+  line-height: 80px;
+}
+
+/* sezione con quadrati e loghi */
 
 .square-left , .square-right{
   width: 33%;
-  background-color: rgb(174, 180, 167);
-  border: 1px solid black;
   height: 445px;
 }
 
 .square-left-item{
   width: 50%;
-  background-color: darkcyan;
-  border: 1px solid black;
   height: 50%;
 }
+
+.square-image{
+ width: 100%;
+ filter: invert(1);
+ height: 100%;
+ padding: 35% 20% 35% 20%;
+} 
+
+.square-center{
+  width: 34%;
+  height: 445px;
+  background-color: whitesmoke;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+.text-center-square{
+  margin-top: 40px;
+}
+
+#clear-logo{
+  width: 120px;
+  height: 120px;
+  border-bottom: 1px solid lightgray;
+}
+
+#background-darkseagreen{
+  background-color: darkseagreen;
+}
+
+#background-maroon{
+  background-color: rgb(97,8,43);
+}
+
+#background-lightseagreen{
+  background-color: lightseagreen;
+}
+
+#background-red{
+  background-color: rgb(255,28,28);
+}
+
+#background-crimson{
+  background-color: crimson;
+}
+
+#background-lightblue{
+  background-color: lightblue;
+}
+
+#background-midnightblue{
+  background-color: midnightblue;
+}
+
+#background-gold{
+  background-color: gold;
+}
+
